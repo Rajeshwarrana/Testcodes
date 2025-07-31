@@ -6,7 +6,7 @@ int main (){
 
     do{
     std :: cout << i << " : I LOVE C++" << std :: endl;
-    ++i;
+        ++i;
     }while(i<count);
 
     return 0;
