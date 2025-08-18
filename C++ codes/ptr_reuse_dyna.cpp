@@ -35,7 +35,7 @@ int main(){
 
 //=============================================================================
 
-    p2 = new int{55};                     // WE ACN REUSETHE POINTER AFTER DELETION 
+    p2 = new int{55};                     // WE ACN REUSE THE POINTER AFTER DELETION 
 
 
     std :: cout << "p2 ADDRESS : " << p2 << "   p2 VALUE : " << *p2 << std::endl;
