@@ -23,13 +23,19 @@ int main(){
     }
 
 
-    delete[] p_salary;
+
+    // pointer initialized with dynamic arrary are way different from regular arrays 
+    //std :: size dosent work in them and they dont support range based fro loops
+
+
+
+    delete [] p_salary;
     p_salary = nullptr;
 
-    delete[] p_students;     // RELESASING THE ALLOCATED MEMORY (ARRAYS VERSION)
+    delete [] p_students;     // RELESASING THE ALLOCATED MEMORY (ARRAYS VERSION)
     p_students = nullptr;
 
-    delete[] p_scores;
+    delete [] p_scores;
     p_scores = nullptr;
 
 
