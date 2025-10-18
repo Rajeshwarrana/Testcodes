@@ -7,15 +7,11 @@
 //passed to the function.
 
 
-double inc_multiplication (double a , double b){
-    a += 1.0;
-    b += 1.0;
-    std :: cout << "Indside value of a :- " << a << std :: endl;
-    std :: cout << "Indside value of b :- " << b << std :: endl;
-    std :: cout << "Multiplication is " << a * b << std :: endl;
-    return 0;
-    
-}
+
+//Function prototype {declearation}
+double inc_multiplication (double a , double b);
+
+
 
 int main(){
     double val56{6.0};
@@ -31,6 +27,18 @@ int main(){
     std :: cout  << inc_multiplication (val56 , val2) << std :: endl;
     std :: cout << std :: endl;
 
+    return 0;
+    
+}
+
+
+//Function definition
+double inc_multiplication (double a , double b){
+    a += 1.0;
+    b += 1.0;
+    std :: cout << "Indside value of a :- " << a << std :: endl;
+    std :: cout << "Indside value of b :- " << b << std :: endl;
+    std :: cout << "Multiplication is " << a * b << std :: endl;
     return 0;
     
 }
