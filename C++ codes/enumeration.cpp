@@ -11,7 +11,7 @@ enum Ranking{
 
 int main(){
 
-    Ranking Player1 = Good;
+    Ranking Player1 ;
     Ranking Player2 = Excellent;
     Ranking Player3 = Average;
 
