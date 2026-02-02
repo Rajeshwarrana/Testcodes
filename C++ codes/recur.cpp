@@ -25,7 +25,7 @@ int main(){
   // You cannot insert a void-expression into the output stream
   // (that caused the compiler error). Call it separately instead.
   std::cout << "The countdown from " << number << " to 1: ";
-  countdown(number);                     // prints the sequence
+  countdown(number);                     
   std::cout << std::endl;
     return 0;
 }
